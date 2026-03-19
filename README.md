@@ -19,12 +19,6 @@
 - AGSL transition: Android 13+ (API 33+); for lower Android versions, the effect would need an OpenGL-based implementation, typically backed by a `SurfaceView`
 - API 29-32: no shader effect, theme changes instantly
 
-## Run the sample
-
-```bash
-./gradlew :app:installDebug
-```
-
 ## Usage
 
 ```kotlin
