@@ -132,7 +132,7 @@ private fun DemoScreen(
             MetricRow()
             StoryCard(
                 title = "Motion Language",
-                body = "The sample screen is intentionally small and independent from Serenity. The focus is the AGSL transition, not a copied product UI.",
+                body = "The sample screen is intentionally small and focused on the AGSL transition rather than a full product UI.",
             )
             StoryCard(
                 title = "Integration",

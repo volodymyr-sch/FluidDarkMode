@@ -49,5 +49,20 @@ FluidDarkMode(
 }
 ```
 
+## Animation Tuning
+
+Animation speed is currently controlled in `app/src/main/java/com/vlsch/fluiddarkmode/transition/FluidDarkMode.kt` via:
+
+```kotlin
+animationSpec = tween(
+    durationMillis = 3600,
+    easing = FastOutSlowInEasing,
+)
+```
+
+`durationMillis` controls the total transition duration, and `easing` controls the motion feel of the reveal.
+
 ## Notes
 - The procedural `noise` work can also be moved to the CPU and passed into the shader as precomputed input data if you need to improve optimization
+
+Licensed under Apache-2.0.
