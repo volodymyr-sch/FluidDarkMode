@@ -2,7 +2,9 @@
 
 `FluidDarkMode` is a small Jetpack Compose sample app that demonstrates a fluid shader-driven dark mode switch.
 
-![FluidDarkMode demo](assets/dark_mode_demo.gif)
+<p align="center">
+  <img src="assets/dark_mode_demo.gif" alt="FluidDarkMode demo" height="640" />
+</p>
 
 ## What it includes
 
